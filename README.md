@@ -73,6 +73,26 @@ The application outputs a JSON array of subtitle tokens:
 ]
 ```
 
+## 📁 Examples
+
+The `examples/` directory contains working sample files demonstrating the complete pipeline:
+
+- **`yesterday-sample.webm`** (2.3MB) - Audio from The Beatles' "Yesterday" 
+- **`yesterday-subtitles.json`** - Generated subtitle output with 25 timestamped segments
+- **`examples/README.md`** - Detailed documentation of the sample files
+
+### Try the Examples
+
+```bash
+# Test with the sample audio file
+bun run generate-subtitles --file examples/yesterday-sample.webm
+
+# Test with the original YouTube URL  
+bun run generate-subtitles --url https://youtu.be/NrgmdOz227I
+```
+
+Both commands will produce the same JSON output, demonstrating the complete Effect pipeline working end-to-end.
+
 ## ⚠️ Important Note: Effect Framework Version Discrepancy
 
 **Task Requirement vs Implementation:**
