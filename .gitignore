@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables (contains API keys)
+.env
+
+# Audio files (temporary downloads)
+*.webm
+*.m4a
+*.wav
+*.mp3
+*.opus
+
+# Build output
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*

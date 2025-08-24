@@ -1,0 +1,22 @@
+{
+  "name": "ai-subtitles-mvp",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate-subtitles": "bun run bin/generate-subtitles.ts",
+    "build": "tsc -p .",
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@effect/schema": "^0.75.0",
+    "dotenv": "^16.4.5",
+    "effect": "^3.9.0",
+    "glob": "^11.0.3",
+    "openai": "^4.57.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.2.20",
+    "@types/node": "^20.10.0",
+    "typescript": "^5.5.4"
+  }
+}
