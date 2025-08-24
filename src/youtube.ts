@@ -24,7 +24,7 @@ const tryExtraction = (url: string, out: string, extraArgs: string[]) =>
     ]
     
     console.log(`Trying yt-dlp with args: ${args.join(' ')}`)
-    const ytdlp = spawn('/Users/om/.pyenv/versions/3.11.9/bin/yt-dlp', args)
+    const ytdlp = spawn('yt-dlp', args)
     
     let stderr = ''
     
@@ -38,10 +38,11 @@ const tryExtraction = (url: string, out: string, extraArgs: string[]) =>
           // Detect actual output filename (could be .webm, .m4a, .opus, etc.)
           const files = await glob(out.replace('.%(ext)s', '.*'))
           if (files.length > 0) {
-            const stats = await stat(files[0])
+            const filePath = files[0]!
+            const stats = await stat(filePath)
             if (stats.size > 0) {
-              console.log(`Successfully downloaded: ${files[0]} (${stats.size} bytes)`)
-              resume(Effect.succeed(files[0]))
+              console.log(`Successfully downloaded: ${filePath} (${stats.size} bytes)`)
+              resume(Effect.succeed(filePath))
               return
             }
           }
