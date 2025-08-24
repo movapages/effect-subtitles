@@ -12,6 +12,11 @@ package-lock.json
 *.mp3
 *.opus
 
+# Allow example files
+!examples/*.webm
+!examples/*.m4a
+!examples/*.json
+
 # Build output
 dist/
 

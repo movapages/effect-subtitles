@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "value": "Yesterday",
+    "startTimeMs": 0,
+    "endTimeMs": 5000,
+    "score": 1
+  },
+  {
+    "id": 2,
+    "value": "Yesterday",
+    "startTimeMs": 5000,
+    "endTimeMs": 8000,
+    "score": 1
+  },
+  {
+    "id": 3,
+    "value": "All my troubles seemed so far away",
+    "startTimeMs": 8000,
+    "endTimeMs": 13000,
+    "score": 1
+  },
+  {
+    "id": 4,
+    "value": "Now it looks as though they're here to stay",
+    "startTimeMs": 13000,
+    "endTimeMs": 17000,
+    "score": 1
+  },
+  {
+    "id": 5,
+    "value": "Oh, I believe in yesterday",
+    "startTimeMs": 17000,
+    "endTimeMs": 22000,
+    "score": 1
+  },
+  {
+    "id": 6,
+    "value": "Suddenly",
+    "startTimeMs": 22000,
+    "endTimeMs": 25000,
+    "score": 1
+  },
+  {
+    "id": 7,
+    "value": "I'm not half the man I used to be",
+    "startTimeMs": 25000,
+    "endTimeMs": 30000,
+    "score": 1
+  },
+  {
+    "id": 8,
+    "value": "There's a shadow hanging over me",
+    "startTimeMs": 30000,
+    "endTimeMs": 34000,
+    "score": 1
+  },
+  {
+    "id": 9,
+    "value": "Oh, and yesterday came suddenly",
+    "startTimeMs": 34000,
+    "endTimeMs": 39000,
+    "score": 1
+  },
+  {
+    "id": 10,
+    "value": "Why she had to go",
+    "startTimeMs": 39000,
+    "endTimeMs": 44000,
+    "score": 1
+  },
+  {
+    "id": 11,
+    "value": "I don't know, she wouldn't say",
+    "startTimeMs": 44000,
+    "endTimeMs": 49000,
+    "score": 1
+  },
+  {
+    "id": 12,
+    "value": "I said",
+    "startTimeMs": 49000,
+    "endTimeMs": 52000,
+    "score": 1
+  },
+  {
+    "id": 13,
+    "value": "Something wrong now I long for yesterday",
+    "startTimeMs": 52000,
+    "endTimeMs": 59000,
+    "score": 1
+  },
+  {
+    "id": 14,
+    "value": "Yesterday",
+    "startTimeMs": 59000,
+    "endTimeMs": 62000,
+    "score": 1
+  },
+  {
+    "id": 15,
+    "value": "Love was such an easy game to play",
+    "startTimeMs": 62000,
+    "endTimeMs": 67000,
+    "score": 1
+  },
+  {
+    "id": 16,
+    "value": "Now I need a place to hide away",
+    "startTimeMs": 67000,
+    "endTimeMs": 71000,
+    "score": 1
+  },
+  {
+    "id": 17,
+    "value": "Oh, I believe in yesterday",
+    "startTimeMs": 71000,
+    "endTimeMs": 77000,
+    "score": 1
+  },
+  {
+    "id": 18,
+    "value": "Why she had to go",
+    "startTimeMs": 77000,
+    "endTimeMs": 81000,
+    "score": 1
+  },
+  {
+    "id": 19,
+    "value": "I don't know, she wouldn't say",
+    "startTimeMs": 81000,
+    "endTimeMs": 87000,
+    "score": 1
+  },
+  {
+    "id": 20,
+    "value": "I said",
+    "startTimeMs": 87000,
+    "endTimeMs": 89000,
+    "score": 1
+  },
+  {
+    "id": 21,
+    "value": "Something wrong now I long for yesterday",
+    "startTimeMs": 89000,
+    "endTimeMs": 97000,
+    "score": 1
+  },
+  {
+    "id": 22,
+    "value": "Yesterday",
+    "startTimeMs": 97000,
+    "endTimeMs": 100000,
+    "score": 1
+  },
+  {
+    "id": 23,
+    "value": "Love was such an easy game to play",
+    "startTimeMs": 100000,
+    "endTimeMs": 105000,
+    "score": 1
+  },
+  {
+    "id": 24,
+    "value": "Now I need a place to hide away",
+    "startTimeMs": 105000,
+    "endTimeMs": 109000,
+    "score": 1
+  },
+  {
+    "id": 25,
+    "value": "Oh, I believe in yesterday",
+    "startTimeMs": 109000,
+    "endTimeMs": 115000,
+    "score": 1
+  }
+]
